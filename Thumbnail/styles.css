@@ -1,0 +1,35 @@
+ body {
+      font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+      font-size: 100%;
+      min-width: 500px;
+      min-height: 400px;
+    }
+
+.listContainer{
+    width:480px;
+    position:relative;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;   
+}
+
+.listContainer li{
+    padding: 5px;
+    border: 1px 0 1px 0  solid gray;
+    border-radius:2px;
+    list-style-type: none;  
+    margin: 2px;
+}
+
+.listContainer li a{
+    text-decoration: none;
+}
+
+.listContainer ol{
+    -webkit-padding-start: 5px; 
+}
+
+#bookmarks{
+    width:95%;margin:5px
+}
