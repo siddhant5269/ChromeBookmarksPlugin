@@ -5,6 +5,11 @@
       min-height: 400px;
     }
 
+.focused{
+    font-size: 30px;
+    color: red;
+}
+
 .listContainer{
     width:480px;
     position:relative;
